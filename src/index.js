@@ -1,5 +1,5 @@
 //call some code that is from our application
-alert('index.js');
+console.log('index.js');
 
 import { run } from "./app/app";
 import { AlertService } from "./app/alert.service";
