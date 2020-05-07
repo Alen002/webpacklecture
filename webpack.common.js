@@ -3,14 +3,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
-    mode: "development",
-    /* devtool: "none", */
     entry: "./src/index.js",
-    output: {
-        filename: "main.[contentHash].js",   //Hash included in the filename
-        path: path.resolve(__dirname, "dist")
-    },
-
     module: {
         rules: [
           {
