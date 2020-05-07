@@ -5,9 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "build-prod": "webpack --config webpack.prod.js",
-    "build-dev": "webpack --config webpack.dev.js --open"
+    "prod": "webpack --config webpack.prod.js", 
+    "dev": "webpack --config webpack.dev.js --open"
   },
   "keywords": [],
   "author": "",
